@@ -1,0 +1,111 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+/* Header styles */
+header {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+header img {
+    height: 30px;
+}
+
+header div a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+/* Hero section styles */
+main section:first-child {
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0 100px;
+    text-align: center;
+}
+
+main section:first-child h1 {
+    font-size: 120px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+main section:first-child > div:first-child p {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button {
+    background: #C271FF;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 600;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/* Pros section styles */
+.pros-section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.pros-section h2 {
+    font-size: 32px;
+    margin-bottom: 70px;
+}
+
+.pros-section h2 span {
+    color: #C271FF;
+}
+
+.pros-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+
+.pro-card {
+    width: 200px;
+    text-align: center;
+}
+
+.pro-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.pro-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pro-card p {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+}
